@@ -1,0 +1,13 @@
+---
+import Image from 'astro/components/Image.astro';
+import myImage from './public/banner.svg';
+import profileimg from './public/profile.jpeg';
+
+---
+<div class="flex md:justify-center w-full mx-auto lg:max-w-4xl md:max-w-2xl md:pt-10 ">
+    <Image src={myImage} alt="lofi anime." class=" rounded-md"/>
+    <div class="flex md:w-full justify-start mx-auto lg:max-w-3xl md:max-w-2xl absolute md:pt-72 pt-32">
+        <Image src={profileimg} alt="perfil the personal." class=" rounded-full size-24  object-cover"/>
+
+    </div>
+</div>
