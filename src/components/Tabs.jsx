@@ -34,7 +34,7 @@ const Tabs = () => {
         </button>
       ))}
     </div>
-    <div className="mt-4 p-4 bg-gray-100 rounded-md shadow-md">
+    <div className="mt-4 p-4  rounded-md shadow-md overflow-hidden">
       {tabs[activeTab].component}
     </div>
   </div>

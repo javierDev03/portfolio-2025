@@ -11,32 +11,42 @@ const About = () => (
       creativa, optimizando procesos para obtener resultados de calidad.
     </p>
 
-    <div className="flex flex-col gap-5">
-        <div className="flex w-[100%] justify-between gap-5">
-          <img
-            src="/public/profile.jpeg"
-            alt=""
-            className="w-[35%] rounde-md"
-          />
-          <img
-            src="/public/profile.jpeg"
-            alt=""
-            className="w-[65%] rounded-md"
-          />
-        </div>
-        <div className="flex w-[100%] justify-between gap-5">
-          <img
-            src="/public/profile.jpeg"
-            alt=""
-            className="w-[65%] rounded-md"
-          />
-          <img
-            src="/public/profile.jpeg"
-            alt=""
-            className="w-[35%] rounde-md"
-          />
-        </div>
-      </div>
+    <div className="flex flex-col gap-5 max-w-2xl mx-auto">
+  <div className="flex w-full justify-between gap-5">
+    <div className="w-[35%] rounded-md overflow-hidden">
+      <img
+        src="/profile.jpeg"
+        alt=""
+        className="w-full h-full object-cover"
+      />
+    </div>
+    <div className="w-[65%] rounded-md overflow-hidden">
+      <img
+        src="/profile.jpeg"
+        alt=""
+        className="w-full h-full object-cover"
+      />
+    </div>
+  </div>
+  <div className="flex w-full justify-between gap-5">
+    <div className="w-[65%] rounded-md overflow-hidden">
+      <img
+        src="/profile.jpeg"
+        alt=""
+        className="w-full h-full object-cover"
+      />
+    </div>
+    <div className="w-[35%] rounded-md overflow-hidden">
+      <img
+        src="/profile.jpeg"
+        alt=""
+        className="w-full h-full object-cover"
+      />
+    </div>
+  </div>
+</div>
+
+
 
   </div>
 );

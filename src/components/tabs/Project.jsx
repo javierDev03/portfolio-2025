@@ -1,7 +1,9 @@
-import React from 'react'
-
+import React from "react";
+import CardProject from "../CardProject";
 export default function Project() {
   return (
-    <div>Project</div>
-  )
+    <>
+     <CardProject/>
+    </>
+  );
 }
